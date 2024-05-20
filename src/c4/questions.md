@@ -34,5 +34,3 @@ printf("Checksum = %d\n", checksum);
 14. 见`c4\i_am_hungry.cpp` 
 15. 见`c4\i_am_hungry.cpp` 
 16. 见`c4\weather.cpp`
-
--- a git test
