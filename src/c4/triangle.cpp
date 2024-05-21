@@ -9,7 +9,7 @@ void triangle(double edge1, double edge2, double edge3){
     || (edge2 == edge3 && edge1 != edge3)
     || (edge1 == edge3 && edge2 != edge3)){
         printf("isosceles triangle!\n");
-    } else if(edge1 == edge2 && edge2 == edge3){
+    } else if(edge1 == edge2){
         printf("equilateral triangle!\n");
     } else if(edge1 * edge1 + edge2 * edge2 == edge3 * edge3
     || edge2 * edge2 + edge3 * edge3 == edge1 * edge1

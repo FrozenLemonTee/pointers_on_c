@@ -2,7 +2,7 @@
 #include "stdlib.h"
 #include "string.h"
 
-int stat = 0;
+long int stat = 0;
 
 void rearrange(){
     if(stat < 0){
@@ -28,7 +28,7 @@ void eatHamburger(){
 int main(){
     eatHamburger();
     char c[100];
-    while (1){
+    while (true){
         printf("your hunger status(0-100), press \"esc\" to exit:");
         gets(c);
         if(!strcmp(c, "esc")){

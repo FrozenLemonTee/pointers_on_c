@@ -5,7 +5,7 @@
 #define BUF_MAX_SIZE 128
 
 void print_redundant(char* inputBuf, char* cmpBuf, int cnt){
-    if(cnt == 1 || strcmp(inputBuf, cmpBuf)){
+    if(cnt == 1 || strcmp(inputBuf, cmpBuf) != 0){
         strcpy(cmpBuf, inputBuf);
     } else{
         printf("%s\n", inputBuf);
@@ -15,7 +15,7 @@ void print_redundant(char* inputBuf, char* cmpBuf, int cnt){
 int main(){
     int cnt = 0; // 行数计数器
     char inputBuf[BUF_MAX_SIZE], cmpBuf[BUF_MAX_SIZE];
-    while ((gets(inputBuf)) != NULL){
+    while ((gets(inputBuf)) != nullptr){
         cnt += 1;
         print_redundant(inputBuf, cmpBuf, cnt);
     }
