@@ -6,7 +6,7 @@
 
 4.
 
-```c
+```c++
 int num_d = 1;
 char s[] = {'h', 'e', 'l', 'l', 'o', '\0'};
 float num_f = 1.45;
